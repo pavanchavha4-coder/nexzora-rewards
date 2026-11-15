@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
-:root{font-family:'DM Sans',sans-serif;color:#f4f4f5;background:#09090b;font-synthesis:none;text-rendering:optimizeLegibility}
-*{box-sizing:border-box}body{margin:0;min-width:320px;background:radial-gradient(ellipse at 50% -15%,#321014 0,transparent 38%),#09090b}
-button,input{font:inherit}.app-shell{max-width:520px;min-height:100vh;margin:auto;padding:0 18px 90px;position:relative}
-.topbar{height:76px;display:flex;align-items:center;gap:11px;border-bottom:1px solid #242428}
-.brand-mark{width:39px;height:39px;border-radius:12px;background:linear-gradient(145deg,#ff424d,#9b101c);display:grid;place-items:center;font:700 23px 'Space Grotesk';box-shadow:0 5px 22px #c51e2938}
-.brand-copy{display:flex;flex-direction:column;gap:3px}.brand-copy strong{font:700 15px 'Space Grotesk';letter-spacing:.4px}.brand-copy strong span{color:#ff5963}.brand-copy small{font-size:9px;letter-spacing:2px;color:#888}
-.status-dot{margin-left:auto;width:8px;height:8px;background:#e84c56;border-radius:50%;box-shadow:0 0 12px #ff5963}
-main{padding-top:23px}.hero{position:relative;overflow:hidden;padding:26px 21px 24px;border:1px solid #3b2024;border-radius:23px;background:linear-gradient(135deg,#241014,#111114 70%);min-height:255px}
-.eyebrow{display:flex;align-items:center;gap:7px;color:#ff6972;font-size:10px;font-weight:700;letter-spacing:1.7px}
-h1,h2,h3,p{margin-top:0}.hero h1,.page-heading h1{font:700 36px/1.05 'Space Grotesk';letter-spacing:-1.4px;margin:20px 0 10px}.hero h1 em{font-style:normal;color:#ff5963}.hero p,.page-heading p{font-size:13px;line-height:1.6;color:#aaa;max-width:290px}
-.hero-glow{position:absolute;width:190px;height:190px;border-radius:50%;background:#c21e2b20;filter:blur(35px);right:-75px;bottom:-75px;pointer-events:none}
-.primary-btn,.secondary-btn{border:0;border-radius:12px;padding:12px 15px;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:700;font-size:12px;cursor:pointer}
-.primary-btn{background:#f04450;color:white;box-shadow:0 8px 24px #e72e3a30}.secondary-btn{background:#29292f;color:#eee}.full{width:100%;margin-top:14px}
-.balance-card{margin-top:16px;padding:19px;border:1px solid #35262a;border-radius:19px;background:linear-gradient(110deg,#1c171a,#121216);position:relative}
-.muted{color:#92929b;font-size:10px;letter-spacing:1.1px;font-weight:600}.balance-card h2{font:700 31px 'Space Grotesk';margin:8px 0 14px}.balance-card h2 small{font:600 10px 'DM Sans';color:#ff6871;letter-spacing:1px}.coin-icon{position:absolute;right:20px;top:20px;width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:#3b2026;color:#ff6570;font-size:25px}
-.balance-foot{border-top:1px solid #30272b;padding-top:12px;display:flex;justify-content:space-between;color:#999;font-size:10px}
-.section-heading{display:flex;align-items:end;justify-content:space-between;margin:26px 0 13px}.section-heading h3{margin:5px 0 0;font:600 19px 'Space Grotesk'}.text-btn{border:0;background:none;color:#ff6972;font-size:11px;font-weight:700}
-.campaign-list{display:grid;gap:13px}.campaign-card{overflow:hidden;border:1px solid #29292e;border-radius:17px;background:#131316}
-.campaign-art{height:105px;display:flex;align-items:center;justify-content:center;gap:10px;flex-direction:column;color:#fff}.campaign-art span{font-size:9px;letter-spacing:2px;font-weight:700;opacity:.8}.campaign-art.violet{background:linear-gradient(120deg,#33234b,#171421)}.campaign-art.orange{background:linear-gradient(120deg,#57301d,#211714)}.campaign-art.blue{background:linear-gradient(120deg,#1d3b52,#121b27)}
-.campaign-content{padding:14px}.campaign-meta{display:flex;justify-content:space-between;color:#9c9ca5;font-size:10px}.campaign-content h3{font:600 17px 'Space Grotesk';margin:8px 0 5px}.campaign-content p{font-size:11px;line-height:1.5;color:#999;margin-bottom:13px}.campaign-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #29292e;padding-top:12px}.campaign-bottom strong{color:#ff6871;font:700 17px 'Space Grotesk'}.campaign-bottom small{font:600 9px 'DM Sans';letter-spacing:1px}
-.watch-btn,.done-btn{border:0;border-radius:9px;padding:9px 13px;font-size:10px;font-weight:700}.watch-btn{background:#f04450;color:white}.done-btn{background:#25252a;color:#8e8e96}
-.page-heading{padding:10px 2px 18px}.page-heading h1{margin:10px 0}.wallet-balance p{font-size:11px;color:#999;margin:0}.panel{border:1px solid #29292e;border-radius:17px;background:#131316;padding:17px;margin-top:14px}.panel h3{font:600 17px 'Space Grotesk';margin-bottom:8px}.panel p{font-size:12px;line-height:1.6;color:#999}.panel label{display:block;font-size:11px;color:#bbb;margin:15px 0 7px}.panel input{width:100%;background:#09090b;border:1px solid #36363d;color:#fff;border-radius:10px;padding:13px;outline:none}.centered{text-align:center;padding:28px 18px}.big-icon{margin:0 auto 13px;width:60px;height:60px;border-radius:18px;background:#352027;color:#ff6972;display:grid;place-items:center}.centered h2{font:600 20px 'Space Grotesk'}.profile-row{display:flex;align-items:center;gap:13px}.profile-row h3{margin:0 0 4px}.profile-row p{margin:0}.avatar{width:45px;height:45px;border-radius:50%;background:#3d2026;color:#ff6972;display:grid;place-items:center;font-weight:700;font-size:19px}.info-list>div{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid #29292e;color:#bbb;font-size:12px}.info-list>div:last-child{border:0}.info-list svg{width:17px;color:#ff6972}.info-list b{margin-left:auto;color:#8c8c95;font-size:10px}.fine-print{font-size:10px;line-height:1.6;color:#777;padding:12px 4px}
-.toast{position:fixed;z-index:5;bottom:83px;left:50%;transform:translateX(-50%);width:calc(100% - 36px);max-width:484px;padding:12px 14px;border:1px solid #493036;border-radius:12px;background:#21171b;color:#f2dce0;font-size:11px;box-shadow:0 8px 30px #0008}.toast span{float:right;color:#ff6871;font-size:16px;margin-left:8px}
-.bottom-nav{position:fixed;z-index:4;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;height:68px;background:#101013f5;backdrop-filter:blur(16px);border-top:1px solid #2b2b30;display:flex;justify-content:space-around;padding:8px 5px 7px}.bottom-nav button{flex:1;border:0;background:none;color:#777;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:9px}.bottom-nav button.active{color:#ff626d}.bottom-nav button span{font-weight:600}
-footer{text-align:center;color:#62626b;font-size:8px;letter-spacing:1.2px;padding:22px 0 0}footer b{color:#aaa}
-@media(min-width:600px){.app-shell{border-left:1px solid #202024;border-right:1px solid #202024}.bottom-nav{border-left:1px solid #29292e;border-right:1px solid #29292e}}
+
+/* NEXZORA Admin Panel */
+.admin-warning{display:flex;gap:9px;align-items:flex-start;padding:12px;border:1px solid #624b25;background:#211b10;color:#e9d6a5;border-radius:12px;font-size:11px;line-height:1.5}
+.admin-warning svg{flex-shrink:0;color:#e7b84e}
+.admin-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:13px}
+.admin-stat{padding:13px;border:1px solid #29292e;border-radius:13px;background:#131316}
+.admin-stat span{display:flex;align-items:center;gap:6px;color:#999;font-size:10px}
+.admin-stat span svg{color:#ff6972}
+.admin-stat strong{display:block;margin-top:9px;font:700 21px 'Space Grotesk';color:#f4f4f5}
+.admin-form label{display:block;font-size:11px;color:#bbb;margin:13px 0 7px}
+.admin-form input,.admin-form select{width:100%;background:#09090b;border:1px solid #36363d;color:#fff;border-radius:10px;padding:12px;outline:none}
+.form-title{display:flex;align-items:center;justify-content:space-between}
+.form-title h3{margin:0}
+.icon-btn{background:none;border:0;color:#aaa;padding:5px}
+.admin-note{margin-top:12px;padding:10px;background:#211b10;color:#d7c18d;border-radius:9px;font-size:10px;line-height:1.5}
+.campaign-admin-list{display:grid;gap:10px;margin-top:12px}
+.campaign-admin-card{padding:13px;border:1px solid #29292e;border-radius:14px;background:#131316}
+.campaign-admin-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.campaign-admin-head strong{display:block;font:600 14px 'Space Grotesk'}
+.campaign-admin-head small{display:block;color:#999;font-size:10px;margin-top:5px}
+.status-pill{white-space:nowrap;border-radius:20px;padding:5px 8px;font-size:9px;font-weight:700;background:#302b1e;color:#e7c66f}
+.status-pill.active{background:#173324;color:#83d5a0}
+.status-pill.paused{background:#30252a;color:#d7a0a8}
+.status-pill.draft{background:#282830;color:#aaa}
+.campaign-admin-meta{display:flex;justify-content:space-between;margin-top:13px;padding-top:10px;border-top:1px solid #29292e;color:#999;font-size:10px}
+.campaign-admin-actions{display:flex;gap:8px;margin-top:12px}
+.campaign-admin-actions button{flex:1}
